@@ -20,7 +20,7 @@ class DumpHTTPRequestToFile {
 		$json  =file_get_contents('php://input');
 		 #$mysqli = new mysqli("localhost","wivach","BananaLavender14","pm_data");
         #$mysqli = new mysqli("10.103.2.30","root","FYYggx71351","pm_data");
-        $mysqli = new mysqli("10.100.2.66","root","MYKqoe97122","pm_data");
+        $mysqli = new mysqli("10.103.2.61","root","LPRkrn71810","pm_data");
 		$mysqli -> set_charset("utf8");
 		$sql = "INSERT INTO `pmdata` (`s_data`) VALUES ('".$json."')";
 		$mysqli ->query($sql);
