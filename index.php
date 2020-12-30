@@ -18,7 +18,7 @@ class DumpHTTPRequestToFile {
 			$data .= $name . ': ' . $value . "\n";
 		}
 		$json  =file_get_contents('php://input');
-		 #$mysqli = new mysqli("localhost","wivach","BananaLavender14","pm_data");
+		#$mysqli = new mysqli("localhost","wivach","BananaLavender14","pm_data");
         #$mysqli = new mysqli("10.103.2.30","root","FYYggx71351","pm_data");
         $mysqli = new mysqli("10.103.2.61","root","LPRkrn71810","pm_data");
 		$mysqli -> set_charset("utf8");
